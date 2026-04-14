@@ -75,7 +75,7 @@ body, p, h1, h2, h3, h4, h5 {
    display: grid;
    grid-template-columns: repeat(4, minmax(0, 1fr));
    grid-column-gap: 30px;
-   max-width: 1200px;
+   max-width: 700px;
    padding-left: 15px;
    padding-right: 15px;
 }
@@ -121,10 +121,10 @@ body, p, h1, h2, h3, h4, h5 {
     .m-hidden {
         display: block;
     }
-    
+
     .grid-con { 
         grid-template-columns: repeat(7, minmax(0, 1fr));
-        max-width: 900px;
+        max-width: 1200px;
      }
 
     .t-col-span-1 {grid-column: span 1 / span 1;}

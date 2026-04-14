@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <title>This is ZIMA</title>
+</head>
+    <body>
+        <header class="grid-con center-grid-con" id="nav">
+            <h1 class="hidden">Welcome to Zima</h1>
+            <nav id="main-nav" class="col-span-full t-col-start-1 t-col-span-2">
+                <h2 class="visually-hidden">Main Navigation</h2>
+                <button id="button"></button>
+                <div id="menu-con">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">OUR STORY</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                        <li><a href="#">PRODUCTS</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="logo" class="col-span-full t-col-start-3 t-col-span-3 l-col-start-6 l-col-span-2">
+                <img src="images/ZIMA.svg" alt="Zima Logo">
+            </div>
+            <div class="m-hidden t-col-start-7 t-col-end-7 l-col-start-12 l-col-span-1 nav-icons">
+                <img src="images/basket.svg" alt="basket icon">
+                <img src="images/user.svg" alt="user profile icon">
+            </div>
+        </header>
+        <main>
+            <section id="about-hero">
+                <div class="grid-con" id="home-hero">
+                    <h2 class="col-span-full t-col-start-2 t-col-span-5 l-col-start-4 l-col-span-6 h2-main">
+                        About Us
+                    </h2>
+                    <div class="col-start-2 col-span-2 t-col-start-3 t-col-end-6 l-col-start-6 l-col-span-2 hero-btn">
+                        <a href="#">DISCOVER</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="story">
+                <div class="grid-con" id="story-div">
+                    <h2 class="h2-main col-span-full">
+                        Our Story
+                    </h2>
+                    <img src="images/desk_zima_factory_zhihal/desk_zima_factory_zhihal_c_scale,w_797.jpg" alt="zima first factory" class="col-span-full t-col-span-full l-col-span-6 about-img">
+                    <div class="story-text col-span-full l-col-span-6">
+                        <p class="p-main">
+                        “At ZIMA, we believe true premium quality begins 
+with purity. Inspired by the meaning of the word 
+“Zima” — winter — our brand was born from the idea
+of capturing the calm strength, clarity, and timeless elegance of  the coldest season. Winter represents stillness, confidence, and precision, and these values continue 
+to shape everything we create.
+                    </p>
+                    <p class="p-main">Our journey began with a simple vision: to craft a vodka experience that feels smooth, elevated, and unforgettable. From the very first bottle, ZIMA Elite was designed 
+to embody refined taste, exceptional balance,
+ and a sense  of quiet prestige.</p>
+                    <p class="p-main">Each variety in our collection offers its own character 
+while staying true to the essence of the brand. The original expression delivers crystal-clear smoothness and timeless purity. ZIMA Grape introduces a richer, velvety depth with subtle fruit warmth, while ZIMA Lemon brings bright citrus freshness and a crisp, energetic finish.</p>
+                    <p class="p-main">More than a beverage, ZIMA Elite is created for moments that deserve to be remembered — celebrations, connections, and the confidence of choosing something exceptional. 
+Our philosophy is rooted in sophistication, authenticity, 
+and  the belief that luxury should feel effortless.”</p>
+                    </div>
+                    
+                    <p class="p-dec col-start-3 col-span-2 l-col-start-10">- Founder & CEO</p>
+                </div>
+            </section>
+
+
+
+
+            <section id="contact" class="grid-con">
+                <h2 class="h2-main col-span-full">Contact Us</h2>
+                <div id="contact-hero-form" class="col-span-full l-col-start-3 l-col-span-8">
+                <form action="email.php" method="POST" enctype="text/plain">
+                    <input name="fullName" type="text" placeholder="First & Last Name">
+                    <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                    <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="newsletter" value="yes">
+                            I would like to receive exclusive updates and product news from ZIMA.
+                    </label>
+                    <input name="submit" type="submit" value="Send">
+                </form>
+            </div>
+            </section>
+        </main>
+        <footer>
+            <div class="grid-con" id="footer-div">
+                <div class="footer-img col-start-2 col-span-2 t-col-span-full">
+                    <img src="images/ZIMA.svg" alt="zima logo">
+                </div>
+                
+                <div class="footer-text col-span-full l-col-start-2 l-col-span-3">
+                    <h3 class="h3-footer">
+                        Address
+                    </h3>
+                    <p class="p-main">
+                        London, ON
+                        231 Clarke Rd.
+                    </p>
+                </div>
+                <div class="footer-text col-span-full l-col-span-4">
+                    <h3 class="h3-footer">
+                        Working Hours
+                    </h3>
+                    <p class="p-main">
+                        Monday – Friday: 9:00 AM – 6:00 PM <br> Saturday: 11:00 AM – 4:00 PM <br> Sunday: Closed
+                    </p>
+                </div>
+                <div class="footer-text col-span-full l-col-span-3">
+                    <h3 class="h3-footer">
+                        Contacts
+                    </h3>
+                    <p class="p-main">
+                        +1 (647) 555-ZIMA
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <script src="js/main.js"></script>   
+    </body>
+</html>
