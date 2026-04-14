@@ -3,7 +3,7 @@ This is my Zima Beverage Rebranding Responsive Website with usage of HTML, JS an
 ## Installation
  No installation needed
 ## Usage
-Open the index.html/about-us.html/grape.html/lemon.html/regular.html on your preferred browser
+Open the index.html/about-us.html/regular.html on your preferred browser
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
