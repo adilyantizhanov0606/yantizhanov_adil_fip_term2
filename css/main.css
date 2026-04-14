@@ -58,7 +58,7 @@ a, ul, p {
 #hero, #about-hero, #regular-hero, .features {
     background-image: url(../images/desk_main_header_q8n7ln/desk_main_header_q8n7ln_c_scale\,w_1400.jpg);
     height: 100vh;
-    background-size: inherit;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -69,8 +69,14 @@ a, ul, p {
     background-image: url(../images/desk_about_header_jlxucr/desk_about_header_jlxucr_c_scale\,w_1263.jpg);
 }
 
-#regular-hero, .features {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/desk_regular_b3eu5h/desk_regular_b3eu5h_c_scale,w_680.jpg);
+#regular-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/desk_lemon_header_ngw4ui/desk_lemon_header_ngw4ui_c_scale\,w_1400.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.features {
+    background-image: url(../images/desk_regular_b3eu5h/desk_regular_b3eu5h_c_scale,w_680.jpg);
     background-position: center;
     background-size: contain;
 }
@@ -256,6 +262,10 @@ footer {
     margin-bottom: 30px;
 }
 
+#product-text {
+    margin-top: 50px;
+}
+
 #product-text .p-main {
     margin-bottom: 15px;
 }
@@ -315,6 +325,39 @@ footer {
 .list-item .p-dec {
     margin-top: 20px;
     margin-bottom: 5px;
+}
+
+#slider-container{
+    overflow:hidden;
+    position:relative
+}
+
+#image-slider{
+    display:flex;
+    transition:transform .5s ease-in-out
+}
+
+.slider-image{
+    max-width:100%;
+    height:auto
+}
+
+#prev-btn,#next-btn{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:20px;cursor:
+    pointer;padding:20px;
+    border:none;
+    border-radius: 20px;
+}
+
+#prev-btn{
+    left:0px
+}
+
+#next-btn{
+    right:0px
 }
 
 
