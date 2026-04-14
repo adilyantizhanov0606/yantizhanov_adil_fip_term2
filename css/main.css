@@ -13,6 +13,7 @@ a, ul, p {
 
 #nav {
     margin-top: 20px;
+    padding: 15px;
 }
 
 #main-nav button {
@@ -54,7 +55,7 @@ a, ul, p {
    margin-bottom: 20px;
 }
 
-#hero {
+#hero, #about-hero {
     background-image: url(../images/desk_main_header_q8n7ln/desk_main_header_q8n7ln_c_scale\,w_1400.jpg);
     height: 100vh;
     background-size: inherit;
@@ -63,6 +64,12 @@ a, ul, p {
     justify-content: center;
     flex-direction: column;
 }
+
+#about-hero {
+    background-image: url(../images/desk_about_header_jlxucr/desk_about_header_jlxucr_c_scale\,w_1263.jpg);
+}
+
+
 
 .h2-main {
     font-size: 50px;
@@ -228,6 +235,22 @@ footer {
     margin-top: 30px;
 }
 
+#story-div .p-main {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#story-div .p-dec {
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.about-img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
 @media screen and (min-width: 700px) {
 
 
@@ -254,8 +277,12 @@ footer {
         align-self: center;
     }
 
-    .card-div .h2-main {
+    .card-div .h2-main  {
         font-size: 38px;
+    }
+
+    #story-div .h2-main {
+        margin-bottom: 30px;
     }
 
     .ph-main {
@@ -263,10 +290,15 @@ footer {
         padding-left: 100px;
         padding-right: 100px;
     }
+
     
 }
 
 @media screen and (min-width: 1200px) {
+    .h2-main {
+        font-size: 60px;
+    }
+
     .ph-card {
         margin-top: 80px;
     }
@@ -274,5 +306,8 @@ footer {
     .card-img {
         height: 90vh;
     }
+    .about-img {
+    margin: 0;
+}
 }
 
