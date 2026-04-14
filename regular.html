@@ -1,1 +1,172 @@
-    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <title>This is ZIMA</title>
+</head>
+    <body>
+        <header class="grid-con center-grid-con" id="nav">
+            <h1 class="hidden">Welcome to Zima</h1>
+            <nav id="main-nav" class="col-span-full t-col-start-1 t-col-span-2">
+                <h2 class="visually-hidden">Main Navigation</h2>
+                <button id="button"></button>
+                <div id="menu-con">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">OUR STORY</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                        <li><a href="#">PRODUCTS</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="logo" class="col-span-full t-col-start-3 t-col-span-3 l-col-start-6 l-col-span-2">
+                <img src="images/ZIMA.svg" alt="Zima Logo">
+            </div>
+            <div class="m-hidden t-col-start-7 t-col-end-7 l-col-start-12 l-col-span-1 nav-icons">
+                <img src="images/basket.svg" alt="basket icon">
+                <img src="images/user.svg" alt="user profile icon">
+            </div>
+        </header>
+        <main>
+            <section id="regular-hero">
+                <div class="grid-con" id="home-hero">
+                    <h2 class="col-span-full t-col-start-2 t-col-span-5 l-col-start-4 l-col-span-6 h2-main">
+                        Classic Flavour
+                    </h2>
+                    <div class="col-start-2 col-span-2 t-col-start-3 t-col-end-6 l-col-start-6 l-col-span-2 hero-btn">
+                        <a href="#">DISCOVER</a>
+                    </div>
+                </div>
+            </section>
+            <section id="product-text">
+                <p class="p-main">
+                    The story of ZIMA Regular begins in the stillness of Siberia, where winter is more than a season — it is a way of life. Inspired by the purity of frozen landscapes and crystal-clear water, this bottle was created as the foundation 
+of the collection.
+                </p>
+                <p class="p-main">
+                    Its character reflects strength, calmness, and precision, delivering the most authentic expression of the ZIMA philosophy: timeless purity with 
+uncompromising smoothness.
+                </p>
+            </section>
+            <section id="features">
+                <div class="grid-con">
+                    <div class="col-span-full features">
+                        <div class="circle" data-info="design"></div>
+                        <div class="circle" data-info="glass"></div>
+                        <div class="circle" data-info="flavour"></div>
+                    </div>
+                    <div class="col-span-full features-box">
+                        <p class="p-main">Tap the circles to reveal information</p>
+                    </div>
+                    <h2 class="h2-main col-span-full">
+                        Classic Flavour
+                    </h2>
+                    <p class="p-main col-span-3">
+                        ELITE SERIES – Flavored Premium Spirit
+                    </p>
+                    <div class="features-list col-span-full">
+                        <div class="list-item">
+                            <p class="p-dec">variery</p>
+                            <p class="p-main">CLASSIC PREMIUM VODKA</p>
+                        </div>
+                        <div class="list-item">
+                            <p class="p-dec">origin</p>
+                            <p class="p-main">SIBERIA, RUSSIA</p>
+                        </div>
+                        <div class="list-item">
+                            <p class="p-dec">distillation</p>
+                            <p class="p-main">TRIPPLE DISTILLED</p>
+                        </div>
+                        <div class="list-item">
+                            <p class="p-dec">alcohol content</p>
+                            <p class="p-main">40% VOL</p>
+                        </div>
+                        <div class="list-item">
+                            <p class="p-dec">serving temperature</p>
+                            <p class="p-main">4-6 C</p>
+                        </div>
+                    </div>
+                    <div class="features-list col-span-full">
+                        <div class="list-item">
+                            <p class="p-dec">pairing notes</p>
+                            <p class="p-main">Best enjoyed chilled on its own, or paired with smoked salmon, caviar, aged cheeses, and elegant seafood dishes.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section id="slider">
+                <div class="grid-con">
+                    <div class="col-span-full">
+                        <div id="slider-container">
+                            <div id="image-slider">
+                            <img class="slider-image" src="images/bottom_img_1.jpg" alt="bottle 1">
+                            <img class="slider-image" src="images/bottom_img_2.jpg" alt="bottle 2">
+                            <img class="slider-image" src="images/desk_bottle_1_cr1ags/desk_bottle_1_cr1ags_c_scale,w_1140.jpgx" alt="bottle 3">
+                            </div>     
+                            <button id="prev-btn">&#10094; </button>
+                            <button id="next-btn"> &#10095;</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="grid-con">
+                <h2 class="h2-main col-span-full">Contact Us</h2>
+                <div id="contact-hero-form" class="col-span-full l-col-start-3 l-col-span-8">
+                <form action="email.php" method="POST" enctype="text/plain">
+                    <input name="fullName" type="text" placeholder="First & Last Name">
+                    <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                    <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="newsletter" value="yes">
+                            I would like to receive exclusive updates and product news from ZIMA.
+                    </label>
+                    <input name="submit" type="submit" value="Send">
+                </form>
+            </div>
+            </section>
+        </main>
+        <footer>
+            <div class="grid-con" id="footer-div">
+                <div class="footer-img col-start-2 col-span-2 t-col-span-full">
+                    <img src="images/ZIMA.svg" alt="zima logo">
+                </div>
+                
+                <div class="footer-text col-span-full l-col-start-2 l-col-span-3">
+                    <h3 class="h3-footer">
+                        Address
+                    </h3>
+                    <p class="p-main">
+                        London, ON
+                        231 Clarke Rd.
+                    </p>
+                </div>
+                <div class="footer-text col-span-full l-col-span-4">
+                    <h3 class="h3-footer">
+                        Working Hours
+                    </h3>
+                    <p class="p-main">
+                        Monday – Friday: 9:00 AM – 6:00 PM <br> Saturday: 11:00 AM – 4:00 PM <br> Sunday: Closed
+                    </p>
+                </div>
+                <div class="footer-text col-span-full l-col-span-3">
+                    <h3 class="h3-footer">
+                        Contacts
+                    </h3>
+                    <p class="p-main">
+                        +1 (647) 555-ZIMA
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <script src="js/main.js"></script>  
+        <script src="js/slider.js"></script> 
+    </body>
+</html>
