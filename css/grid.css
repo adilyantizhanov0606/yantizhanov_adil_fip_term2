@@ -30,6 +30,15 @@ body, p, h1, h2, h3, h4, h5 {
     display: none;
 }
 
+.t-hidden {
+    display: none;
+}
+
+.d-hidden {
+    display: block;
+}
+
+
 .visually-hidden:not(:focus):not(:active) {
    position: absolute !important; 
    width: 1px !important; 
@@ -78,6 +87,7 @@ body, p, h1, h2, h3, h4, h5 {
    max-width: 700px;
    padding-left: 15px;
    padding-right: 15px;
+   margin: 0 auto;
 }
 
 .col-span-1   {grid-column: span 1 / span 1;}
@@ -122,6 +132,12 @@ body, p, h1, h2, h3, h4, h5 {
         display: block;
     }
 
+    .t-hidden {
+    display: none;
+}
+    
+
+
     .grid-con { 
         grid-template-columns: repeat(7, minmax(0, 1fr));
         max-width: 1200px;
@@ -158,9 +174,18 @@ body, p, h1, h2, h3, h4, h5 {
 
 @media screen and (min-width: 1200px) { 
 
+     .t-hidden {
+        display: block;
+    }
+
+    .d-hidden {
+    display: none;
+}
+
+   
     .grid-con { 
        grid-template-columns: repeat(12, minmax(0, 1fr));
-       max-width: 1300px;
+       max-width: 1480px;
     }
  
     .l-col-span-1 {grid-column: span 1 / span 1;}
