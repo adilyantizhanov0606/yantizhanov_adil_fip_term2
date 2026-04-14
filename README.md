@@ -1,2 +1,16 @@
-# yantizhanov_adil_fip_term2
-This is the Final Integrated Project Term 2 Repository - Zima Vodka Website, Including 5 responsive HTML pages ( index, 3 product pages, about us ), with usage of CSS and JS.
+# Final Integrated Project Term 2 - Zima Beverage Rebranding 
+This is my Zima Beverage Rebranding Responsive Website with usage of HTML, JS and CSS.
+## Installation
+ No installation needed
+## Usage
+Open the index.html/about-us.html/grape.html/lemon.html/regular.html on your preferred browser
+## Contributing
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+## Credits
+Adil Yantizhanov 
+## License
+MIT license
