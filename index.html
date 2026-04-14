@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <title>This is ZIMA</title>
+</head>
+    <body>
+        <header class="grid-con center-grid-con" id="nav">
+            <h1 class="hidden">Welcome to Zima</h1>
+            <nav id="main-nav" class="col-span-full t-col-start-1 t-col-span-2">
+                <h2 class="visually-hidden">Main Navigation</h2>
+                <button id="button"></button>
+                <div id="menu-con">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">OUR STORY</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                        <li><a href="#">PRODUCTS</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="logo" class="col-span-full t-col-start-3 t-col-span-3 l-col-start-6 l-col-span-2">
+                <img src="images/ZIMA.svg" alt="Zima Logo">
+            </div>
+            <div class="m-hidden t-col-start-7 t-col-end-7 l-col-start-12 l-col-span-1 nav-icons">
+                <img src="images/basket.svg" alt="basket icon">
+                <img src="images/user.svg" alt="user profile icon">
+            </div>
+        </header>
+        <main>
+            <section id="hero">
+                <div class="grid-con" id="home-hero">
+                    <h2 class="col-span-full t-col-start-2 t-col-span-5 l-col-start-4 l-col-span-6 h2-main">
+                        Born From Winter
+                    </h2>
+                    <div class="col-start-2 col-span-2 t-col-start-3 t-col-end-6 l-col-start-6 l-col-span-2 hero-btn">
+                        <a href="#">DISCOVER</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="philosophy">
+                <div class="grid-con">
+                    <div class="ph-main col-span-full">
+                        <h2 class="h2-main">
+                            Philosophy
+                        </h2>
+                        <p class="p-main">
+                            In the heart of winter's silence, we discovered purity. 
+                            Not through excess, but through 
+                            restraint. Not through noise, but through clarity.
+                        </p>
+                        <p class="p-main">ZIMA is born from the belief that true luxury whispers. It is the confidence to stand still in  a  world that rushes. 
+                            The elegance of simplicity in an age of complexity.
+                        </p>
+                        <p class="p-main">Each bottle is a testament to absolute purity—distilled 
+                            to perfection, refined to essence, 
+                            presented with quiet confidence.
+                        </p>
+                    </div>
+                    <div class="ph-card col-span-2 t-col-start-1 t-col-span-2 l-col-start-4 l-col-span-2">
+                        <p class="p-dec">PURITY</p>
+                        <p class="p-main">Distilled seven times for absolute 
+                            clarity.
+                        </p>
+                    </div>
+                    <div class="ph-card col-span-2 t-col-span-3 l-col-span-2">
+                        <p class="p-dec">SIMPLICITY</p>
+                        <p class="p-main">Minimal ingredients, maximum 
+                            refinement
+                        </p>
+                    </div>
+                    <div class="ph-card m-hidden t-col-span-2 l-col-span-2">
+                        <p class="p-dec">CONFIDENCE</p>
+                        <p class="p-main">Quiet elegance that speaks 
+                            volumes
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="main-video">
+                <div class="grid-con">
+                    <div class="video-con col-span-full">
+                        <video 
+                            id="hero-video"
+                            muted 
+                            poster="images/video-preview.jpg"
+                            controls>
+
+                            <source src="video/final_video_render.webm" type="video/webm">
+                            <source src="video/final_video_render.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </section>
+            <section id="main-cards">
+                    <div class="grid-con" id="card-1">
+                        <img src="images/desk_grape_ey3z3j/desk_grape_ey3z3j_c_scale,w_680.jpg" alt="grape flavour bottle" class="col-span-full t-col-span-3 l-col-span-6 card-img">
+                        <div class="col-span-full t-col-span-4 l-col-start-8 card-div">
+                            <h2 class="h2-main">
+                                GRAPE
+                            </h2>
+                            <p class="p-main">
+                                Velvety depth with a fruit-forward twist. A richer profile defined by dark grape notes, soft sweetness, and a lingering smooth finish that adds warmth and character.
+                            </p>
+                            <div class="hero-btn">
+                                <a href="#">EXPLORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-con" id="card-2">
+                        <img src="images/desk_regular_b3eu5h/desk_regular_b3eu5h_c_scale,w_680.jpg" alt="regular flavour bottle" class="col-span-full t-col-span-3 l-col-span-6 card-img">
+                        <div class="col-span-full t-col-span-4 l-col-start-8 card-div">
+                            <h2 class="h2-main">
+                                REGULAR
+                            </h2>
+                            <p class="p-main">
+The pure essence of tradition.  Smooth on the palate with a crystal-clear finish, ZIMA Regular delivers a classic taste experience that feels clean, strong, and effortlessly refined.                            </p>
+                            <div class="hero-btn">
+                                <a href="#">EXPLORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-con" id="card-3">
+                        <img src="images/desk_lemon_q3nhhn/desk_lemon_q3nhhn_c_scale,w_680.jpg" alt="lemon flavour bottle" class="col-span-full t-col-span-3 l-col-span-6 card-img">
+                        <div class="col-span-full t-col-span-4 l-col-start-8 card-div">
+                            <h2 class="h2-main">
+                                LEMON
+                            </h2>
+                            <p class="p-main">
+A bright spark of freshness.  Lively citrus notes open the experience with energy, followed by a crisp and refreshing finish that feels sharp, clean, and vibrant.                            </p>
+                            <div class="hero-btn">
+                                <a href="#">EXPLORE</a>
+                            </div>
+                        </div>
+                    </div>
+
+            </section>
+            <section id="contact" class="grid-con">
+                <h2 class="h2-main col-span-full">Contact Us</h2>
+                <div id="contact-hero-form" class="col-span-full l-col-start-3 l-col-span-8">
+                <form action="email.php" method="POST" enctype="text/plain">
+                    <input name="fullName" type="text" placeholder="First & Last Name">
+                    <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                    <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="newsletter" value="yes">
+                            I would like to receive exclusive updates and product news from ZIMA.
+                    </label>
+                    <input name="submit" type="submit" value="Send">
+                </form>
+            </div>
+            </section>
+        </main>
+        <footer>
+            <div class="grid-con" id="footer-div">
+                <div class="footer-img col-start-2 col-span-2 t-col-span-full">
+                    <img src="images/ZIMA.svg" alt="zima logo">
+                </div>
+                
+                <div class="footer-text col-span-full l-col-start-2 l-col-span-3">
+                    <h3 class="h3-footer">
+                        Address
+                    </h3>
+                    <p class="p-main">
+                        London, ON
+                        231 Clarke Rd.
+                    </p>
+                </div>
+                <div class="footer-text col-span-full l-col-span-4">
+                    <h3 class="h3-footer">
+                        Working Hours
+                    </h3>
+                    <p class="p-main">
+                        Monday – Friday: 9:00 AM – 6:00 PM <br> Saturday: 11:00 AM – 4:00 PM <br> Sunday: Closed
+                    </p>
+                </div>
+                <div class="footer-text col-span-full l-col-span-3">
+                    <h3 class="h3-footer">
+                        Contacts
+                    </h3>
+                    <p class="p-main">
+                        +1 (647) 555-ZIMA
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <script src="js/main.js"></script>   
+    </body>
+</html>

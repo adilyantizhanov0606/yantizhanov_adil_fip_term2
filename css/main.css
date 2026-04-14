@@ -1,0 +1,278 @@
+body {
+    background-color: #121212;
+}
+
+
+
+a, ul, p {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: "Roboto Slab", serif;
+}
+
+#nav {
+    margin-top: 20px;
+}
+
+#main-nav button {
+   background: url(../images/menu.svg) center no-repeat;
+   border: 0px;
+   width: 90px;
+   height: 20px;
+   transition: all .5s ease;
+   display: flex;
+   align-items:flex-start;
+}
+
+
+#main-nav button.expanded {
+   transform: rotate(90deg);
+}
+
+#menu-con {
+   margin-top: 20px;
+   display: none;
+   margin-bottom: 20px;
+}
+
+#menu-con.slide-toggle {
+   display:flex;
+}
+
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#menu-con {
+    margin-top: 20px;
+   display: none;
+   margin-bottom: 20px;
+}
+
+#hero {
+    background-image: url(../images/desk_main_header_q8n7ln/desk_main_header_q8n7ln_c_scale\,w_1400.jpg);
+    height: 100vh;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h2-main {
+    font-size: 50px;
+    font-family: "Didot", serif;
+    color: #fafafa;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.p-main {
+    color: #fafafa;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.ph-main p{
+    margin-bottom: 30px;
+}
+
+.ph-main h2 {
+    margin: 40px 0px 30px 0px;
+}
+
+#main-header {
+    display:flex ;
+    align-items: center;
+}
+
+.hero-btn {
+    border: 1px solid #FCE764;
+    padding: 15px 45px;
+    text-align: center;
+    margin-top: 30px;
+    transition: all .5s ease-in-out;
+}
+
+.hero-btn:hover {
+    background-color: #FCE764;
+    transition: all .5s ease-in-out;
+}
+
+.ph-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ph-card .p-main {
+    color: #9CA3AF;
+    margin-top: 15px;
+}
+
+.p-dec {
+    color: #FCE764;
+    font-size: 12px;
+}
+
+#main-video {
+    margin: 30px 0px;
+}
+
+.card-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-div .hero-btn {
+    width: 50%;
+}
+
+.card-div .p-main {
+    margin-top: 20px;
+}
+
+.card-img {
+    height: 67vh;
+    margin: auto;
+}
+
+#contact {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #FCE764;
+}
+
+#contact .h2-main {
+    margin-bottom: 20px;
+}
+
+#contact-hero-form input,#contact-hero-form textarea {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    color: #fafafa;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fafafa;
+    padding: 5px 0;
+    width: 100%;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+
+#contact-hero-form input:focus, #contact-hero-form textarea:focus {
+    border-bottom-color: #FCE764;
+}
+
+#contact-hero-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#contact-hero-form input[type="submit"] {
+    background: transparent;
+    color: #fafafa;
+    border: 2px solid #fafafa;
+    padding: 14px 40px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#contact-hero-form input[type="submit"]:hover {
+    background: #fafafa;
+    color: #121212;
+}
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    color: #fafafa;
+    cursor: pointer;
+    margin: 10px 0 20px 0;
+}
+
+.checkbox-label input {
+    width: 10px;
+}
+
+footer {
+    padding: 30px;
+}
+
+.h3-footer {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+    color: #fafafa;
+    text-align: center;
+    margin: 30px 0px 15px 0px;
+}
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 700px) {
+
+
+
+    #logo {
+        height: 64px;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 0px;
+    }
+
+    .nav-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .h2-main {
+        font-size: 96px;
+    }
+
+    .card-div {
+        align-self: center;
+    }
+
+    .card-div .h2-main {
+        font-size: 38px;
+    }
+
+    .ph-main {
+        margin-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .ph-card {
+        margin-top: 80px;
+    }
+
+    .card-img {
+        height: 90vh;
+    }
+}
+
